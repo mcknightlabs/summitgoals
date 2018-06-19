@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ site.github.url }}/stylesheets/app.css" />
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,400,700,800" rel="stylesheet">
+        <script src="{{ site.github.url }}/js/classie.js"></script>
+		<link rel="alternate" type="application/rss+xml" title="RTMUP RSS" href="http://rtmup.com/feed.xml" />
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+		<meta property="og:title" content="{{ page.og_title }}" />
+		<meta property="og:description" content="{{ page.og_description }}" />
+		<meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
+		<meta property="og:type"  content="{{ page.og_type }}" />
+		<meta property="og:locale"  content="en_US" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114315585-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-114315585-1');
+		</script>
+
+	</head>
+	
+	<body class="top-nav-push">
+		<div class="menu-wrapper hide-on-desktop">
+			<a href="{{ site.github.url }}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}"><span class="site-logo site-logo-outside">RM</span></a>
+			{% include nav-mobile.html navclass='nav-top' %}
+			<a id="showTopPush" class="main-menu-btn">Menu <img src="{{ site.github.url }}/media/img/menu-icon.png" width="25" height="14" class="hamburger-icon"></a>
+		</div>
+		<header class="header">
+			{% include nav-desktop.html navclass='nav-top' %}
+		</header>
+		<div id="wrap"> <!-- used for sticky footer -->
+			<main>
+				{{content}}
+			<main>
+		</div>
+		<div id="footer"> <!-- used for sticky footer -->
+			<footer>
+				<p>Built by <a href="https://twitter.com/rtmup">@RTMUP</a> with <a href="http://jekyllrb.com/">Jekyll</a></p>
+			</footer>
+		</div>
+		<script>
+			var menuTop = document.getElementById( 'top-nav' ),
+			showTopPush = document.getElementById( 'showTopPush' ),
+			body = document.body;
+
+			showTopPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'top-nav-push-down' );
+				classie.toggle( menuTop, 'top-nav-open' );
+				disableOther( 'showTopPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showTopPush' ) {
+					classie.toggle( showTopPush, 'disabled' );
+				}
+			}
+		</script>
+	</body>
+</html>

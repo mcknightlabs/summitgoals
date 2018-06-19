@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="article-section">
+	<h1>Gear</h1>
+	<p class="page-description">Reviews, hacks and inventions</p>
+	<ul class="article-list">
+		{% for gear in site.categories.gear %}
+		<li>
+			<h2><a href="{{ gear.url }}">{{ gear.title }}</a></h2>
+			<p class="description">{{ gear.description }}</p>
+			<p class="meta">Posted: {{ gear.date | date: '%B %d, %Y' }} 
+			{% for tag in gear.tags %}
+			{% capture tag_name %}{{ tag }}{% endcapture %}
+			<span class="topics">•
+				<a href="/tags/{{ tag_name }}">
+				{{ tag_name }}
+				</a>
+			</span>
+			{% endfor %}
+			</p>
+		</li>
+		{% endfor %}
+	</ul>
+	<a href="{{ site.github.url }}/index.html" class="view-all">
+	Back to home</a>
+</section>

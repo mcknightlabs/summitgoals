@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="article-section">
+	<h1>Nutrition</h1>
+	<p class="page-description">Reviews, tips and recipes</p>
+	<ul class="article-list">
+		{% for nutrition in site.categories.nutrition %}
+		<li>
+			<h2><a href="{{ nutrition.url }}">{{ nutrition.title }}</a></h2>
+			<p class="description">{{ nutrition.description }}</p>
+			<p class="meta">Posted: {{ nutrition.date | date: '%B %d, %Y' }} 
+			{% for tag in nutrition.tags %}
+			{% capture tag_name %}{{ tag }}{% endcapture %}
+			<span class="topics">•
+				<a href="/tags/{{ tag_name }}">
+				{{ tag_name }}
+				</a>
+			</span>
+			{% endfor %}
+			</p>
+		</li>
+		{% endfor %}
+	</ul>
+	<a href="{{ site.github.url }}/index.html" class="view-all">
+	Back to home</a>
+</section>

@@ -1,0 +1,38 @@
+// mailchimp overrride
+#mc_embed_signup  {
+	margin: 0 auto 3rem auto;
+	max-width: 45rem;
+    width: 100%;
+	&.signupbox {
+		box-sizing: border-box;
+		margin-top: 2rem;
+		background: #F4F5F7;
+		padding: 2rem;
+	}
+	input.email {
+		width: 100% !important;
+	}
+	input.button {
+		width: 100% !important;
+		background-color: #3300FF;
+		&:hover {
+			background-color: #3300FF;
+		}
+	}
+	form.mcform {
+		padding: 0;
+	}
+}
+
+// medium screen size up
+@media (min-width: 600px ) {
+	// mailchimp overrride
+	#mc_embed_signup  {
+		input.email {
+			width: 50% !important;
+		}
+		input.button {
+			width: 50% !important;	
+		}
+	}
+}

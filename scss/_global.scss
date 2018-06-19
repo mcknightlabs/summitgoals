@@ -1,0 +1,232 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: scroll;
+}
+.store {
+	margin-top: 2.5rem;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 1rem;
+	.product {
+		grid-column: span 12;
+		margin-bottom: 2.5rem;
+	}
+}
+.shopify-collection {
+	padding: .5rem;
+}
+.shopify-buy__product {
+	margin-bottom: 2rem;
+}
+.home h1 {
+	margin-bottom: 3rem;
+}
+h1 {
+	margin: .5rem 0 1rem 0;
+}
+h3 {
+	margin: 2rem 0 .875rem 0;
+}
+ul, ol {
+	margin-left: 1.5rem;
+}
+th, td {
+	text-align: left;
+	padding: 1rem 0;
+}
+h1, h2, h3, h4, h5 {
+	color: #191b22;
+	font-weight: 600;
+}
+h2 {
+	font-size: 1.25rem;
+}
+table {
+	font-size: .875rem;
+	width: 100%;
+	overflow-x: auto;   /* Scrollbar is displayed as it's needed */
+	word-wrap:break-word;
+	caption {
+		background: #000;
+		color: #fff;
+		font-weight: bold;
+		padding: 1rem 0;
+		text-align: center;
+		text-transform: uppercase;
+		.details {
+			text-transform: none;
+			margin-top: .5rem;
+			display: block;
+			font-size: .875rem;
+			font-weight: 100;
+		}
+	}
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: #f6f7f8; 
+}
+p, li {
+	color: #44464f;
+	font-size: 1.25rem;
+	font-weight: 400;
+	line-height: 1.6;
+}
+p {
+	margin-bottom: 1.5rem;
+}
+li {
+	margin-bottom: .5rem;
+}
+img {
+	max-width: 100%;
+}
+a {
+	color: #3300FF;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+figure {
+	max-width: 100%;
+	margin: 0 auto 2.5rem auto !important;
+	&.graphic {
+		max-width: 720px;
+	}
+	figcaption {
+		margin-top: .5rem;
+		font-size: .875rem;
+		color: #717584;
+		line-height: 1.3;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	&.photo {
+		&:first-of-type {
+			margin: 0 0 40px 0;
+		}
+		margin: 40px 0;
+	}
+	iframe {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+}
+main {
+    clear: both;
+    overflow:auto;
+    padding-bottom: 90px; /* must be same height as the footer */
+    margin: 0 auto;
+}
+
+
+// dividers
+.small-divider {
+	display: block;
+	margin: .5rem auto 0rem auto;
+	width: 10%;
+}
+.diamond-divider {
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+}
+hr.style-eight { /* Glyph, by Harry Roberts */
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    margin: 40px 0 60px 0;
+    padding: 0;
+    text-align: center;
+    &:after {
+    	background: #FFF;
+    	content: "§";
+	    display: inline-block;
+	    font-size: 1.5em;
+	    padding: 0 0.25em;
+	    position: relative; 
+	    top: -0.7em;  
+    }   
+}
+.byline {
+	display: block;
+	text-align:center;
+	margin-bottom: 2rem;
+}
+.comments {
+	max-width: 45rem;
+    width: 100%;
+    margin: 0 auto 3rem auto;
+    padding: 0 1rem 1rem 1rem;
+    box-sizing: border-box;
+}
+
+// image styling
+.img-border {
+	border: solid 1px #ccc;
+}
+
+blockquote {
+	color: #3300FF;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin: 20px 0 10px 0;
+	p {
+		font-size: 1rem;
+	}
+	citation {
+		display: block;
+		margin-top: 10px;
+		font-weight: bold;
+		font-size: .875rem;
+	}
+	p, citation, citation a, li {
+		letter-spacing: 1px;
+	}
+}
+// medium screen size up
+@media (min-width: 600px ) {
+	.store {
+		grid-gap: 2rem;
+		.product {
+			grid-column: span 4;
+		}
+	}
+	.shopify-collection {
+		margin: 2rem;
+	}
+	p, li {
+		font-size: 1.25rem;
+	}
+	figure {
+		max-width: 45rem;
+		iframe {
+			width: 45rem;
+		}
+	}
+	.full-frame {
+		figure {
+			max-width: 100%;
+		}
+	}
+	.medium-frame {
+		figure {
+			max-width: 80%;
+		}
+	}
+	.hide-on-desktop {
+		display: none;
+	}
+	.small-divider {
+		margin-bottom: 3rem;
+	}
+	.comments {
+		padding: 0;
+	}
+}

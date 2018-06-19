@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="article-section">
+	<h1>Training</h1>
+	<p class="page-description">Physical fitness, wilderness first aid and technical mountaineering</p>
+	<ul class="article-list">
+		{% for training in site.categories.training %}
+		<li>
+			<h2><a href="{{ training.url }}">{{ training.title }}</a></h2>
+			<p class="description">{{ training.description }}</p>
+			<p class="meta">Posted: {{ training.date | date: '%B %d, %Y' }} 
+			{% for tag in training.tags %}
+			{% capture tag_name %}{{ tag }}{% endcapture %}
+			<span class="topics">•
+				<a href="/tags/{{ tag_name }}">
+				{{ tag_name }}
+				</a>
+			</span>
+			{% endfor %}
+			</p>
+		</li>
+		{% endfor %}
+	</ul>
+	<a href="{{ site.github.url }}/index.html" class="view-all">
+	Back to home</a>
+</section>

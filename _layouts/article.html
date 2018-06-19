@@ -1,0 +1,38 @@
+---
+layout: default
+comments: true
+# other options
+---
+
+<article>
+	<h1>{{ page.title }}</h1>
+
+	<span class="byline">By <a href="https://twitter.com/rtmup">@rtmup</a> | Posted: {{ page.date | date: '%B %d, %Y' }}</span>
+
+	<hr class="small-divider">
+
+	{{content}}
+
+	<!-- Begin MailChimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	<div id="mc_embed_signup" class="signupbox">
+	<form action="//ryanmcknight.us11.list-manage.com/subscribe/post?u=a479617d8c74fb81582a3dca3&amp;id=fbdfc06e8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mcform" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+		<label for="mce-EMAIL">Get RTMUP posts in your inbox</label>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a479617d8c74fb81582a3dca3_fbdfc06e8d" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	</form>
+	</div>
+	<!--End mc_embed_signup-->
+	
+</article>
+
+{% include disqus.html %}
