@@ -1,6 +1,6 @@
-name: Ryan McKnight
-description: Professional site
+name: Summit Goals
+description: Mountaineering logbook
 markdown: kramdown 
 exclude: ["scss", "Gemfile","Gemfile.lock", "README.md","config.rb"]
 disqus_short_name: "Ryan McKnight"
-url: http://www.ryantmcknight.com
+url: http://www.summitgoals.com
