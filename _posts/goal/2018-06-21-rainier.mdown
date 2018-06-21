@@ -1,7 +1,7 @@
 ---
 layout: photos
 title: Rainier
-description: Camp Muir to the summit in 4.5 hours
+description: We made it from Camp Muir to the summit in 4.5 hours.
 categories: ascents
 og_title: Summit Rainier
 og_description: Camp Muir to the summit in 4.5 hours
