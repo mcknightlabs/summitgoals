@@ -1,0 +1,202 @@
+---
+layout: photos
+title: Summit Rainier
+description: Camp Muir to the summit in 4.5 hours
+categories: ascents
+og_title: Summit Rainier
+og_description: Camp Muir to the summit in 4.5 hours
+og_image: /media/img/goals/2018-06-20-rainier/P1055158.jpg
+og_type: website
+tags:
+---
+
+<div class="medium-frame">
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044679.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044700.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044719.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044737.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044751.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044779.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044793.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044798.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044816.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044828.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044839.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044849.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044859.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044872.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044877.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044916.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044939.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044940.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044941.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044942.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044945.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044957.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044967.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1044984.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055011.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055017.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055029.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055030.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055034.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055045.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055074.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055077.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055085.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055117.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055140.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055146.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055153.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055156.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055158.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055159.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055184.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055186.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055190.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055195.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055196.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055197.jpg" width="100%">
+</figure>
+
+<figure>
+	<img src="{{ site.github.url }}/media/img/goals/2018-06-20-rainier/P1055199.jpg" width="100%">
+</figure>
+
+</div>
