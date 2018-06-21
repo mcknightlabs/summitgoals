@@ -1,6 +1,6 @@
 ---
 layout: photos
-title: Summit Kilimanjaro
+title: Kilimanjaro
 description: We left camp just before midnight to reach the 5,895m (19,341ft) summit for the sunrise.
 categories: ascents
 og_title: Summit Kilimanjaro
