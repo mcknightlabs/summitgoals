@@ -465,8 +465,7 @@ figure.photo:first-of-type {
   margin: 0 0 40px 0; }
 figure iframe {
   margin: 0 auto;
-  width: 100%;
-  height: auto; }
+  width: 100%; }
 
 main {
   clear: both;
