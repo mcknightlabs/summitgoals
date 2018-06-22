@@ -441,7 +441,7 @@ img {
   max-width: 100%; }
 
 a {
-  color: #3300FF;
+  color: #FF3300;
   text-decoration: none; }
 a:hover {
   text-decoration: underline; }
@@ -517,7 +517,7 @@ hr.style-eight:after {
   border: solid 1px #ccc; }
 
 blockquote {
-  color: #3300FF;
+  color: #FF3300;
   font-size: 1.5rem;
   line-height: 1.6;
   margin: 20px 0 10px 0; }
@@ -604,9 +604,9 @@ header {
   padding: 0.8em;
   letter-spacing: 1px; }
 .top-nav ul li .menu-link:hover {
-  background: #3300FF; }
+  background: #FF3300; }
 .top-nav ul li .menu-link:active {
-  background: #3300FF;
+  background: #FF3300;
   color: #fff; }
 
 .site-logo {
@@ -683,7 +683,7 @@ header {
   .top-nav-desktop ul li a {
     font-size: 1rem;
     padding: 0;
-    color: #3300FF;
+    color: #FF3300;
     text-decoration: none;
     text-transform: uppercase; }
   .top-nav-desktop ul li a:hover {
@@ -691,11 +691,11 @@ header {
 
   .site-logo {
     float: none;
-    color: #3300FF;
-    border: solid 1px #3300FF; }
+    color: #FF3300;
+    border: solid 1px #FF3300; }
   .site-logo:hover {
-    background: #3300FF;
-    border-color: #3300FF;
+    background: #FF3300;
+    border-color: #FF3300;
     color: #fff; }
 
   .site-logo-inside {
@@ -772,12 +772,12 @@ form button:hover {
   font-size: .875rem;
   text-align: center;
   text-decoration: none;
-  color: #3300FF;
-  border: solid 1px #3300FF;
+  color: #FF3300;
+  border: solid 1px #FF3300;
   border-radius: 1rem;
   text-transform: uppercase; }
 .view-all:hover {
-  background: #3300FF;
+  background: #FF3300;
   color: #fff;
   text-decoration: none; }
 
@@ -982,7 +982,7 @@ body:before {
 #comments table th {
   font-size: 18px; }
 #comments .submit {
-  background: #3300FF;
+  background: #FF3300;
   padding: 14px;
   border: 0;
   color: #FFF;
@@ -1003,9 +1003,9 @@ body:before {
   width: 100% !important; }
 #mc_embed_signup input.button {
   width: 100% !important;
-  background-color: #3300FF; }
+  background-color: #FF3300; }
 #mc_embed_signup input.button:hover {
-  background-color: #3300FF; }
+  background-color: #FF3300; }
 #mc_embed_signup form.mcform {
   padding: 0; }
 
