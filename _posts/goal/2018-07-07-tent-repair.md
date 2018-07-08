@@ -5,7 +5,7 @@ description: How to repair pinhole-sized tears in both the inner and outer walls
 categories: gear
 og_title: Hilleberg tent repair
 og_description: How to repair pinhole-sized tears in both the inner and outer walls
-og_image: /media/img/goals/2016-11-05-everest/day-7/R0000633.jpg
+og_image: /media/img/goals/2018-07-07-tent-repair/R0060008-edited.jpg
 og_type: website
 tags:
 ---
