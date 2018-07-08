@@ -907,7 +907,7 @@ article .meta, article.b .meta {
 
   article p, article ul, article ol, article h1, article h2, article h3, article h4, article h5, article figcaption, article table {
     padding: 0; }
-  article p, article ul, article ol, article h1, article h2, article h3, article h4, article h5, article blockquote, article table {
+  article p, article ul, article ol, article h1, article h2, article h3, article h4, article h5, article blockquote, article table, article byline {
     max-width: 45rem;
     width: 100%;
     margin: 0 auto 1.5rem auto; }
