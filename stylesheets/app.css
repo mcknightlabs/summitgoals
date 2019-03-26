@@ -359,7 +359,7 @@ template {
   display: none; }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Merriweather', Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll; }
@@ -614,7 +614,7 @@ header {
   text-align: center;
   font-weight: 400;
   font-size: .875rem;
-  font-family: Montserrat;
+  font-family: 'Merriweather', Georgia, serif;
   border: solid 1px #333;
   border-radius: 50%;
   line-height: 1.5;
@@ -749,7 +749,7 @@ form button:hover {
   margin: 0;
   padding: 0; }
 .article-list h2 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Merriweather', Georgia, serif;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.2;
@@ -834,7 +834,7 @@ article, article.b {
 article h1, article.b h1 {
   font-size: 1.675rem;
   line-height: 1.2;
-  font-weight: 800;
+  font-weight: 100;
   margin-top: 0rem;
   margin-bottom: 1rem;
   text-align: center; }
@@ -922,7 +922,7 @@ article .meta, article.b .meta {
   article .article-title, article.b .article-title {
     font-size: 2.675rem; }
   article h1, article.b h1 {
-    font-size: 2.675rem; }
+    font-size: 2.5rem; }
   article h3, article h2, article.b h3, article.b h2 {
     margin: 3.5rem auto 1rem auto; }
   article h4, article.b h4 {
