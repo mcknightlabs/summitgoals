@@ -4,7 +4,8 @@
 }
 header {
 	display: block;
-	margin: 1rem 0 3rem 0;
+	margin: 0 0 3rem 0;
+	padding: 1rem 0;
 }
 .rtmup-headshot {
 	float: right;
@@ -56,22 +57,12 @@ header {
 .site-logo {
 	display: inline-block;
 	text-align: center;
-	font-weight: 400;
-	font-size: .875rem;
+	font-weight: 600;
 	font-family: 'Merriweather', Georgia, serif;
-	border: solid 1px #333;
-	border-radius: 50%;
 	line-height: 1.5;
 	padding: .5rem;
-	color: #333;
-	&:hover {
-		background: #333;
-		border: solid 1px #333;
-		color: #fff;
-	}
 }
 .menu-wrapper {
-	background: #F4F5F7;
 	padding: 1rem 0.9375rem;
 	border-bottom: solid 1px #ccc;
 	margin-bottom: 2.5rem;
@@ -82,7 +73,7 @@ header {
 	display: block;
 	text-align: center;
 	background: none;
-	margin: .5rem 0 0 0;
+	margin: .25rem 0 0 0;
 	color: #191b22;
 	&:hover {
 		text-decoration: none;
@@ -148,12 +139,6 @@ header {
 	.site-logo {
 		float: none;
 		color: #FF3300;
-		border: solid 1px #FF3300;
-		&:hover {
-			background: #FF3300;
-			border-color: #FF3300;
-			color: #fff;
-		}
 	}
 	.site-logo-inside {
 		margin-top: 0;
