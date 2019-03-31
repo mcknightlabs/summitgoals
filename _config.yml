@@ -3,4 +3,5 @@ description: Mountaineering logbook
 markdown: kramdown 
 exclude: ["scss", "Gemfile","Gemfile.lock", "README.md","config.rb"]
 disqus_short_name: "Ryan McKnight"
-url: http://www.summitgoals.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://summitgoals.com" # the base hostname & protocol for your site, e.g. http://example.com
